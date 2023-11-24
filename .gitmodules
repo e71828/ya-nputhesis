@@ -1,0 +1,3 @@
+[submodule "ya-npu"]
+	path = ya-npu
+	url = https://github.com/NWPUMetaphysicsOffice/Yet-Another-LaTeX-Template-for-NPU-Thesis
