@@ -424,12 +424,20 @@ int main()
 \begin{equation}
     V_{\text{sphere}} = \frac43 \pi r^3
 \end{equation}
-
-\cleardoublepage
 %%=============================================================================%
-%% 文档附页部分（致谢、参加科研情况、知识产权与原创性声明）
-%%-----------------------------------------------------------------------------%
+%-
+%-> Appendix
+%-
+\cleardoublepage%
+\appendix% initialize the environment
+\input{Tex/Appendix}% appendix content
+\cleardoublepage%
+%%=============================================================================%
+%-
+%-> Backmatter: bibliography, glossary, index
+%-
 \backmatter                                                 % 文档附页部分
+\input{Tex/Backmatter}% other information
 %%-----------------------------------------------------------------------------%
 \begin{acknowledgements}                                    % 致谢开始
     感谢我的老师和我的朋友们……
