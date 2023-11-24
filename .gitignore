@@ -29,3 +29,5 @@ auxil/
 *.pdf
 *.nlo
 *.thm
+*.run.xml
+*.bcf

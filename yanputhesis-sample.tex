@@ -61,6 +61,9 @@
 \captionsetup[bi-second]{bi-second}%
 \RequirePackage[section]{placeins}% prevent floats from being moved over section
 %---------------------------------------------------------------------------%
+%\usepackage[backend=biber,style=gb7714-2015]{biblatex}
+%\addbibresource[location=local]{Biblio/ref}%biblatex宏包的参考文献数据源加载方式
+%\printbibliography[heading=bibliography,title=参考文献] %打印参考文献表在合适的地方
 
 
 \usepackage{Style/artracom}% user defined commands
@@ -386,7 +389,7 @@ int main()
 %%-----------------------------------------------------------------------------%
 %% \bibliographystyle{nputhesis}                               % GB/T 7714-2015 格式
 \bibliographystyle{ya-npu/nputhesis-noslash}                       % 参考文献改进格式
-\bibliography{reference,ref}                                  % 参考文献
+\bibliography{Biblio/reference, Biblio/ref}                                  % 参考文献
 \appendix
 \chapter{一份说明 顺便测试英文标题 Title}
 
